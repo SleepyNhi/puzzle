@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<title>15-Puzzle</title>
+		<link href="fifteen.css" type="text/css" rel="stylesheet" />
+		<script src="fifteen.js" type="text/javascript"></script>
+
+	</head>
+
+	<body>
+		<h1>15-Puzzle</h1>
+
+		<div id="win">
+			<p>You Won!</p>
+		</div>
+		<div id="time"></div>
+		<div id="timetracker"></div>
+		<div id="moveCounter"></div>
+
+		<select id="size">
+			<option value="3">3x3</option>
+			<option value="4" selected="selected">4x4</option>
+			<option value="5">5x5</option>
+		</select>
+
+		<button id="shufflebutton">Shuffle</button>
+
+				<div id="puzzleTable">	</div>
+
+
+		<div id="alternates">
+			<h2>Select Picture</h2>
+			
+			<div class="alt-img current">
+				<img src="background.png" alt="Burger" />
+				<span>Selected</span>
+			</div>
+
+			<div class="alt-img">
+				<img src="planet.png" alt="Planet" />
+				<span>Selected</span>
+			</div>
+
+		</div>
+
+	</body>
+</html>
